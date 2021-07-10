@@ -25,15 +25,15 @@ $temperature = $data['city']['temperature'];
 //$today = $data['cover']['title']; 
 //定义颜色
 $black = ImageColorAllocate($im, 0,0,0);//定义黑色的值
-$red = ImageColorAllocate($im, 255,0,0);//红色
+$blue = ImageColorAllocate($im, 69,174,255);//红色
 $font = 'msyh.ttf';//加载字体
 //输出
-imagettftext($im, 16, 0, 10, 40, $red, $font,'欢迎您来自'.$country.'-'.$region.'的朋友');
-imagettftext($im, 16, 0, 10, 72, $red, $font, '今天是'.date('Y年n月j日').' 星期'.$weekarray[date("w")]);//当前时间添加到图片
-imagettftext($im, 16, 0, 10, 104, $red, $font,'您的IP是:'.$ip.'  '.$weather." ".$temperature.'℃');//ip
-imagettftext($im, 16, 0, 10, 140, $red, $font,'您使用的是'.$os.'操作系统');
-imagettftext($im, 16, 0, 10, 175, $red, $font,'您使用的是'.$browser);
-imagettftext($im, 13, 0, 10, 200, $black, $font,$get); 
+imagettftext($im, 17, 0, 10, 40, $blue, $font,'你好吖，来自互联网的朋友！');
+imagettftext($im, 17, 0, 10, 72, $blue, $font, '今天是'.date('Y年n月j日').' 星期'.$weekarray[date("w")]);//当前时间添加到图片
+imagettftext($im, 17, 0, 10, 104, $blue, $font,'您的IP是:'.$ip.'  ');//ip
+imagettftext($im, 17, 0, 10, 140, $blue, $font,'您使用的是'.$os.'操作系统');
+imagettftext($im, 17, 0, 10, 175, $blue, $font,'您使用的是'.$browser);
+imagettftext($im, 14, 0, 10, 200, $black, $font,$get); 
 ImageGif($im);
 ImageDestroy($im);
 
