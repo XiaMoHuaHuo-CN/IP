@@ -2,7 +2,7 @@
 header("Content-type: image/JPEG");
 use UAParser\Parser;
 require_once 'vendor/autoload.php';
-$im = imagecreatefromjpeg("ip-image.png"); 
+$im = imagecreatefromjpeg("ip-image.jpg"); 
 $ip = $_SERVER["REMOTE_ADDR"];
 $ua = $_SERVER['HTTP_USER_AGENT'];
 $get = $_GET["s"];
