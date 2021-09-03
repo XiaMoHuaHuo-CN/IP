@@ -1,4 +1,4 @@
-# IP签名档
+# IP签名档Vercel-PHP版
 <h2>基于 小小航 大佬的IP签名档源码修改</h2>
 完全基于此大佬的IP签名档源码修改，原仓库:<a href="//github.com/xhboke/IP">https://github.com/xhboke/IP</a><br />
 <h3>修改内容:</h3>
