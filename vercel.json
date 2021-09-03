@@ -1,0 +1,49 @@
+{
+  "functions": {
+      "api/*.php": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/bin/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/composer/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/composer/ca-bundle/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/composer/ca-bundle/src/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/ua-parser/uap-php/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/ua-parser/uap-php/src/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/ua-parser/uap-php/src/Command/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/ua-parser/uap-php/src/Exception/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/ua-parser/uap-php/src/Result/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/ua-parser/uap-php/src/Util/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/ua-parser/uap-php/src/Util/Logfile/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/ua-parser/uap-php/resources/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+    "api/vendor/ua-parser/uap-php/bin/*": {
+      "runtime": "vercel-php@0.4.0"
+    },
+}
+}
